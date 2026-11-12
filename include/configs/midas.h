@@ -72,6 +72,7 @@
 	"kernel_addr_r=0x43000000\0" \
 	"fdt_addr_r=0x49000000\0" \
 	"pxefile_addr_r=0x4b000000\0" \
+	"scriptaddr=0x4b000000\0" /* sysboot/extlinux scratch */ \
 	"ramdisk_addr_r=0x50000000\0" \
 	BOOTENV \
 	"fitloadaddr=0x50000000\0" /* load address of FIT image */\
